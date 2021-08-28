@@ -14,3 +14,9 @@ express.get('/notes', (req, res) => {
   
   module.exports = express;
   
+
+
+  //   Fun fact:  your muslces can get over exerted and stop working right.
+//  Fun fact: your bladder functions via a surrounding "net" of muscles.
+//  Fun fact: Use of strained muscles is extremely painful
+//  Fun fact:  I hope you can laugh because I certanly can't
