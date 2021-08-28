@@ -28,19 +28,18 @@ exprs.use(express.static(__dirname + "/public"));
 // const path = require('path');
 
 
-module.exports = (exprs) => {
     // => HTML GET Requests
     // Below code handles when users "visit" a page.
     // In each of the below cases the user is shown an HTML page of content
 
     exprs.get('/', (req, res) => {
-        res.sendFile(path.join(__dirname, '../public/index.html'));
+        res.sendFile(path.join(__dirname, './public/index.html'));
     });
     // I don't know whether it's better to take advatage of the arrow functions to have everything on one line or
     // If breaking it so it doesn't reach so far is better.  
     // I'll do both
     exprs.get('/notes', (req, res) => {
-        res.sendFile(path.join(__dirname, '../public/notes.html'));
+        res.sendFile(path.join(__dirname, './public/notes.html'));
     });
 
 
@@ -108,4 +107,3 @@ exprs.delete("/api/notes/:id", (req, res) => {
     exprs.listen(PORT, () => {
         console.log(`App listening on PORT: ${PORT}`);
     });
-}
