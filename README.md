@@ -48,5 +48,6 @@ The following images show the web application's appearance and functionality:
 
 
 
+Assistance recived from Pratik Patel
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
